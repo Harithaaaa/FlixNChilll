@@ -1,0 +1,162 @@
+body{
+    background-image: url("flix/about.jpg");
+    background-position: static;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    max-height: 2000px;
+  }
+
+.flix::first-letter{
+	font-size: 70px;
+	font-weight: normal;
+	color : rgba(226, 220, 220, 0.945);
+	font-style: oblique;
+}
+
+.mainbd{
+    border: 5px groove rgba(240, 233, 234, 0.39);
+    position: static;
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-right:2px;
+    border-top: 0px;
+}  
+
+.mainbd:hover{
+    border: 5px groove rgba(250, 19, 54, 0.966);
+    position : relative;
+    transition: all .4s ease;
+  
+}  
+
+.search{
+    height: 35px;
+	width: 250px;
+	background-color: rgba(228, 222, 222, 0.911);
+	color: black;
+	border: 3px groove red;
+	font-weight: bold;
+	padding: 7px;
+	border-radius: 5px;
+}
+
+.search:hover{
+    height: 35px;
+	width: 250px;
+	background-color: rgb(167, 192, 247);
+	color: black;
+	padding:7px;
+	border-radius: 5px;
+	border: 2px groove rgb(156, 232, 245);
+
+	
+}
+
+
+.signup{
+	float: right;
+	width: 900px;
+	text-align: right;
+	font-size: 90%;
+	border-color: rgb(46,123,252);
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+.button1,.button2,.button3,.button4,.button5,.button6{
+	border: 4px groove red;
+	background-color: red;
+	margin: 2px auto 2px auto;
+	padding: 4px;
+	float: center;
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 7px;
+
+	
+	font-size: 140%;
+}
+
+.button1:hover{
+	color: rgb(10, 2, 2);
+}
+.button1:active{
+	color: red;
+}
+.button1:visited{
+	color: yellow;
+}
+.button2:hover{
+	color: rgb(20, 20, 20);
+}
+.button2:active{
+	color: red;
+}
+.button2:visited{
+	color: yellow;
+}
+.button1:focus{
+	color: white;
+}
+.button2:focus{
+	color: white;
+}
+
+.button3:hover{
+	color: rgb(10, 2, 2);
+}
+.button3:active{
+	color: red;
+}
+.button3:visited{
+	color: yellow;
+}
+.button3:focus{
+	color: white;
+}
+
+.button4:hover{
+	color: rgb(10, 2, 2);
+}
+.button4:active{
+	color: red;
+}
+.button4:visited{
+	color: yellow;
+}
+.button4:focus{
+	color: white;
+}
+
+.button5:hover{
+	color: rgb(10, 2, 2);
+}
+.button5:active{
+	color: red;
+}
+.button5:visited{
+	color: yellow;
+}
+.button5:focus{
+	color: white;
+}
+
+
+.button6:hover{
+	color: rgb(10, 2, 2);
+}
+.button6:active{
+	color: red;
+}
+.button6:visited{
+	color: yellow;
+}
+.button6:focus{
+	color: white;
+}
+
+
+

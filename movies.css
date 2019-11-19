@@ -1,0 +1,956 @@
+body{
+    background-image: url("flix/black1.jpg");
+    background-position: static;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    max-height: 2000px;
+  }
+
+
+
+.flix::first-letter{
+	font-size: 70px;
+	font-weight: normal;
+	color : rgba(226, 220, 220, 0.945);
+	font-style: oblique;
+}
+
+.mainbd{
+    border: 5px groove rgba(240, 233, 234, 0.39);
+    position: static;
+
+    margin-top: 5px;
+    margin-right: 2px;
+    margin-right:2px;
+    border-top: 0px;
+}  
+
+.mainbd:hover{
+    border: 5px groove rgba(250, 19, 54, 0.966);
+	position : relative;
+	transition: all .4s ease;
+  
+}  
+.search{
+    height: 35px;
+	width: 250px;
+	background-color: rgba(228, 222, 222, 0.911);
+	color: black;
+	border: 3px groove red;
+	font-weight: bold;
+	padding: 7px;
+	border-radius: 5px;
+}
+
+.search:hover{
+    height: 35px;
+	width: 250px;
+	background-color: rgb(167, 192, 247);
+	color: black;
+	padding:7px;
+	border-radius: 5px;
+	border: 2px groove rgb(156, 232, 245);
+
+	
+}
+
+.signup{
+	float: right;
+	width: 900px;
+	text-align: right;
+	font-size: 90%;
+	border-color: rgb(46,123,252);
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+.button1,.button2,.button3,.button4,.button5,.button6{
+	border: 4px groove red;
+	background-color: red;
+	margin: 2px auto 2px auto;
+	padding: 4px;
+	float: center;
+	color: yellow;
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 7px;
+
+	
+	font-size: 140%;
+}
+
+
+.button1:hover{
+	color: rgb(27, 26, 26);
+}
+.button1:active{
+	color: red;
+}
+.button1:visited{
+	color: yellow;
+}
+.button2:hover{
+	color: rgb(20, 20, 20);
+}
+.button2:active{
+	color: red;
+}
+.button2:visited{
+	color: yellow;
+}
+.button1:focus{
+	color: white;
+}
+.button2:focus{
+	color: white;
+}
+
+.button3:hover{
+	color: rgb(10, 2, 2);
+}
+.button3:active{
+	color: red;
+}
+.button3:visited{
+	color: yellow;
+}
+.button3:focus{
+	color: white;
+}
+
+.button4:hover{
+	color: rgb(10, 2, 2);
+}
+.button4:active{
+	color: red;
+}
+.button4:visited{
+	color: yellow;
+}
+.button4:focus{
+	color: white;
+}
+
+.button5:hover{
+	color: rgb(10, 2, 2);
+}
+.button5:active{
+	color: red;
+}
+.button5:visited{
+	color: yellow;
+}
+.button5:focus{
+	color: white;
+}
+
+.button6:hover{
+	color: rgb(10, 2, 2);
+}
+.button6:active{
+	color: red;
+}
+.button6:visited{
+	color: yellow;
+}
+.button6:focus{
+	color: white;
+}
+
+
+.intro1{
+	
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border: 3px groove red;
+	border-bottom: 2px red;
+	margin: 5px;
+}
+.intro2{
+	color: rgba(11, 237, 253, 0.911);
+	float: right;
+	text-shadow: 1.2px 1.2px;
+	letter-spacing: 0.1em;
+}
+.intro3{
+	color: rgba(8, 237, 245, 0.993);
+	float: right;
+	text-shadow: 1.2px 1.2px;
+	letter-spacing: 0.1em;
+}
+
+.intro4{
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	border: 3px groove red;
+	border-top: 2px red;
+
+}
+
+.logo1{
+	color: red;
+	float:center;
+	font-weight: bold;
+	font-size: 95%;
+	text-shadow: 0.8px 0.8px;
+	text-decoration: none;
+
+}
+
+
+.netflix{
+	border-radius: 4px;
+	border: 4px groove rgba(8, 237, 245, 0.993);
+
+}
+
+.content1{
+	margin-left: 10px;
+	margin-right: 10px;
+    padding: 17px;
+}
+.netflixmovies{
+	color: rgba(250, 19, 54, 0.966);
+	font-size: 40px;
+	box-shadow: 0px 6px 8px 0px;
+}
+
+.booth1-img{
+	float: right;
+	height:170px;
+	width:300px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.booth1-img:hover{
+	height:170px;
+	width:300px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.booth1-img:active{
+	opacity: 0.4;
+}
+
+.prom1-img{
+	float: right;
+	height:170px;
+	width:300px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.prom1-img:hover{
+	height:170px;
+	width:300px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.prom1-img:active{
+	opacity: 0.4;
+}
+
+.brain1-img{
+	float: left;
+	height:170px;
+	width:300px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.brain1-img:hover{
+	height:170px;
+	width:300px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.brain1-img:active{
+	opacity: 0.4;
+}
+
+.anni1-img{
+	float: left;
+	height:170px;
+	width:300px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.anni1-img:hover{
+	height:170px;
+	width:300px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.anni1-img:active{
+	opacity: 0.4;
+}
+
+.content2{
+	
+	margin-left: none;
+	margin-right: none;
+
+}
+
+.dude1-img{
+	float: left;
+	height:150px;
+	width:250px;
+	margin-left: 2px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.dude1-img:hover{
+	height:150px;
+	width:250px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.dude1-img:active{
+	opacity: 0.4;
+}
+
+.you1-img{
+	float: center;
+	height:150px;
+	width:250px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.you1-img:hover{
+	height:150px;
+	width:250px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+
+}
+.you1-img:active{
+	opacity: 0.4;
+}
+
+.mind1-img{
+	float: left;
+	height:150px;
+	width:250px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.mind1-img:hover{
+	height:150px;
+	width:250px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.mind1-img:active{
+	opacity: 0.4;
+}
+
+.balloon1-img{
+	float: left;
+	height:150px;
+	width:250px;
+	margin-left: 6px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.balloon1-img:hover{
+	height:150px;
+	width:250px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+
+}
+.balloon1-img:active{
+	opacity: 0.4;
+}
+
+.met1-img{
+	float: right;
+	height:150px;
+	width:250px;
+	margin-left: 3px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.met1-img:hover{
+	height:150px;
+	width:250px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+
+}
+.met1-img:active{
+	opacity: 0.4;
+}
+
+.marvel{
+	border-radius: 4px;
+	border: 4px groove rgba(8, 237, 245, 0.993);
+
+}
+
+.marvelmovies{
+	color: rgba(250, 19, 54, 0.966);
+	font-size: 40px;
+	box-shadow: 0px 6px 8px 0px;
+}
+
+.content3{
+	margin-left: 10px;
+	margin-right: 5px;
+    padding: 17px;
+}
+
+.avengers1-img{
+	float: left;
+	height:170px;
+	width:300px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.avengers1-img:hover{
+	height:170px;
+	width:300px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.avengers1-img:active{
+	opacity: 0.4;
+}
+
+.ultron1-img{
+	float: right;
+	height:170px;
+	width:300px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.ultron1-img:hover{
+	height:170px;
+	width:300px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.ultron1-img:active{
+	opacity: 0.4;
+}
+
+.infinity1-img{
+	float: left;
+	height:170px;
+	width:300px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.infinity1-img:hover{
+	height:170px;
+	width:300px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.infinity1-img:active{
+	opacity: 0.4;
+}
+
+.civil1-img{
+	float: right;
+	height:170px;
+	width:300px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.civil1-img:hover{
+	height:170px;
+	width:300px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.civil1-img:active{
+	opacity: 0.4;
+}
+
+
+.content4,.content6{
+	 float: center;
+	 margin-left: none;
+	 margin-right: none;
+}
+
+.ironman1-img{
+	float: left;
+	height:150px;
+	width:250px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.ironman1-img:hover{
+	height:150px;
+	width:250px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.ironman1-img:active{
+	opacity: 0.4;
+}
+
+
+
+.ironman2-img{
+	float: left;
+	height:150px;
+	width:250px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.ironman2-img:hover{
+	height:150px;
+	width:250px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.ironman2-img:active{
+	opacity: 0.4;
+}
+
+
+.ironman3-img{
+	float: center;
+	height:150px;
+	width:250px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.ironman3-img:hover{
+	height:150px;
+	width:250px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+
+}
+.ironman3-img:active{
+	opacity: 0.4;
+}
+
+
+.captain1-img{
+	float: right;
+	height:150px;
+	width:250px;
+	margin-left: 1px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.captain1-img:hover{
+	height:150px;
+	width:250px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.captain1-img:active{
+	opacity: 0.4;
+}
+
+.winter1-img{
+	float: right;
+	height:150px;
+	width:250px;
+	margin-left: 5px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.winter1-img:hover{
+	height:150px;
+	width:250px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 2px 2px;
+
+}
+.winter1-img:active{
+	opacity: 0.4;
+}
+
+
+.content5{
+	float:center;
+	margin-left:none;
+	margin-right:none;
+	padding: 11px;
+}
+
+.guardians1-img{
+	float: left;
+	margin-left: 1px;
+	margin-top: 25px;
+	border-radius: 5px;
+	height:150px;
+	width:230px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.guardians1-img:hover{
+	height:150px;
+	width:230px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	padding: 1.5px 1.5px;
+
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+}
+.guardians1-img:active{
+	opacity: 0.4;
+}
+
+.guardians2-img{
+	float: left;
+	margin-top: 25px;
+	height:150px;
+	width:230px;
+    margin-left: 5px;
+
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.guardians2-img:hover{
+	height:150px;
+	width:230px;
+	padding: 1.5px 1.5px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+}
+.guardians2-img:active{
+	opacity: 0.4;
+}
+
+
+
+.antman2-img{
+	float: right;
+	margin-top: 25px;
+	height:150px;
+	width:230px;
+	margin-left: 5px;
+
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.antman2-img:hover{
+	height:150px;
+	width:230px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+	padding: 1.5px 1.5px;
+
+}
+.antman2-img:active{
+	opacity: 0.4;
+}
+
+
+.strange1-img{
+	float: center;
+	margin-left: 10px;
+	height: 210px;
+	
+	width:305px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+	
+
+
+}
+
+.strange1-img:hover{
+	height:210px;
+	width:305px;
+
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+}
+.strange1-img:active{
+	opacity: 0.4;
+}
+
+
+.antman1-img{
+	float: right;
+	height:150px;
+	width:230px;
+	margin-top: 25px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.antman1-img:hover{
+	padding: 1.5px 1.5px;
+    height:150px;
+	width:230px;
+
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+}
+.antman1-img:active{
+	opacity: 0.4;
+}
+
+.content7{
+	float:center;
+	margin-left: 100px;
+	margin-right: 30px;
+}
+
+.dp1-img{
+	float: left;
+	height:200px;
+	width:350px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.dp1-img:hover{
+	height:200px;
+	width:350px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+
+}
+.dp1-img:active{
+	opacity: 0.4;
+}
+
+.spidey1-img{
+	float: left;
+	height:200px;
+	width:350px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.spidey1-img:hover{
+	height:200px;
+	width:350px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+
+}
+.spidey1-img:active{
+	opacity: 0.4;
+}
+
+
+.dp2-img{
+	float: left;
+	height:200px;
+	width:350px;
+	margin-left: 10px;
+	border-radius: 5px;
+	border: 2px groove red;
+	opacity: 0.7;
+
+}
+
+.dp2-img:hover{
+	height:200px;
+	width:350px;
+	box-shadow: 0px 8px 16px 0px rgba(202, 195, 195, 0.973);
+	border: 2px groove rgb(92, 238, 248);
+	opacity:9.5;
+
+}
+.dp2-img:active{
+	opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

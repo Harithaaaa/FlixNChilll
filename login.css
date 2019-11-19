@@ -1,0 +1,181 @@
+body{
+	background-image: url("cube/cube9.jpg");
+	background-position: 80%;
+	background-size:cover;
+	background-repeat: no-repeat;
+	
+  }
+
+
+.flix{
+	position: fixed;
+}
+
+
+.flix::first-letter{
+	font-size: 70px;
+	font-weight: normal;
+	color : rgba(226, 220, 220, 0.945);
+	font-style: oblique;
+
+}
+
+.login{
+    float: center;
+    margin-left: 400px;
+	width: 530px;
+	text-align: left;
+	color: white;
+	font-size: 120%;
+	font-weight: bold;
+    text-decoration:none;
+    border: 4px solid inset;
+    border-color: red;
+    border-radius: 10px;
+	
+}
+
+.login:hover{
+    border-color: rgb(99, 242, 252);
+
+}
+::placeholder{
+	color: rgb(192, 7, 7);
+}
+
+.button1{
+	border: 2px groove red;
+	margin: 2px auto 2px auto;
+	padding: 4px;
+	float: center;
+	color: rgb(46,123,252);
+	font-weight: bold;
+	text-decoration: none;
+	border-radius: 6px;
+	font-size: 170%;
+}
+
+
+.button1:hover{
+	color: rgb(126,126,126);
+	box-shadow: 0px 4px 6px 0px;
+}
+.button1:active{
+	color: red;
+}
+.button1:visited{
+	color: rgb(0, 0, 0);
+}
+.button1:focus{
+	color: white;
+}
+.button3:hover{
+	color: rgb(126,126,126);
+}
+.button3:active{
+	color: red;
+}
+.button3:visited{
+	color: yellow;
+}
+.button3:focus{
+	color: white;
+}
+
+
+input[type="text"]{
+	padding: 13px;
+	margin: 8px 12px;
+    width: 100%;
+    margin-left: 7px;
+	box-sizing: border-box;
+	border-radius: 5px 15px;
+	background-color: rgb(99, 242, 252);
+	color: rgb(8, 8, 8);
+	font-weight: bold;
+}
+
+input[type="password"]{
+	padding: 13px;
+    margin: 8px 12px;
+    margin-left: 6px;
+	background-color: rgb(99, 242, 252);
+	color: rgb(8, 8, 8);
+	font-weight: bold;
+	width: 100%;
+	border-radius: 5px 15px;
+	box-sizing: border-box;
+}
+
+input[type="text"]:hover{
+	border: 3px solid rgba(233, 26, 26, 0.959);
+	background-color: rgb(255, 255, 255);
+	color: rgb(8, 8, 8);
+	box-shadow: 0px 7px 14px 0px rgb(126, 126, 126);
+	font-weight: bold;
+	border-radius: 5px 15px;
+}
+
+input[type="password"]:hover{
+	background-color: rgb(255, 255, 255);
+	color: rgb(8, 8, 8);
+	font-weight: bold;
+	border: 3px solid rgba(233, 26, 26, 0.959);
+	box-shadow: 0px 7px 14px 0px rgb(126, 126, 126);
+	border-radius: 5px 15px;
+}
+
+
+input[type="text"]:focus{
+	border: 3px solid rgba(233, 26, 26, 0.959);
+	box-shadow: 0px 7px 14px 0px rgb(126, 126, 126);
+	border-radius: 5px 15px;
+	
+}
+
+input[type="password"]:focus{
+	border: 3px solid rgba(233, 26, 26, 0.959);
+	box-shadow: 0px 7px 14px 0px rgb(126, 126, 126);
+	border-radius: 5px 15px;
+}
+
+
+
+
+input[type="submit"]:hover{
+	background-color: rgb(255, 255, 255);
+	color: rgb(8, 8, 8);
+	font-weight: bold;
+	border: 3px solid rgba(233, 26, 26, 0.959);
+	
+	border-radius: 5px 15px;
+}
+
+input[type="submit"]{
+	background-color: rgb(255, 255, 255);
+	color: rgb(8, 8, 8);
+	font-weight: bold;
+	border: 3px solid rgb(70, 227, 248);
+	
+	font-size: 120%;
+	border-radius: 5px 15px;
+}
+
+.forgotbutton:hover{
+	background-color: rgb(255, 255, 255);
+	color: rgb(8, 8, 8);
+	font-weight: bold;
+	border: 3px solid rgba(233, 26, 26, 0.959);
+	
+	border-radius: 5px 15px;
+}
+
+.forgotbutton{
+	background-color: rgb(255, 255, 255);
+	color: rgb(8, 8, 8);
+	font-weight: bold;
+	border: 3px solid rgb(70, 227, 248);
+	
+	font-size: 120%;
+	border-radius: 5px 15px;
+}

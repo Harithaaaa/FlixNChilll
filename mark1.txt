@@ -1,0 +1,25 @@
+1.protonmail
+
+2. USb connect history for windows: 
+
+Get-ItemProperty -Path HKLM:\SYSTEM\CurrentControlSet\Enum\USBSTOR\*\* | Select FriendlyName 
+
+3.Deepsound
+
+4. https://www.youtube.com/redirect?event=video_description&v=UG7be4mLXr0&redir_token=DWIWp5tvHwpX6pNmR7N1RTAsazx8MTU0MTA4NDMzNkAxNTQwOTk3OTM2&q=https%3A%2F%2Fdiscordapp.com%2F
+
+5.https://www.youtube.com/redirect?redir_token=SluayYk9P1fhucAtyJXhVHe62mt8MTU0MTA4NDY5M0AxNTQwOTk4Mjkz&q=https%3A%2F%2Fprivnote.com&v=yIGtIhtzzko&event=video_description
+
+6.https://ngrok.com/
+
+7.https://send.firefox.com/
+
+8.https://shodan.io/
+
+9.telnet.mapscii.me
+
+10.gloom framework
+
+11.https://www.youtube.com/redirect?q=https%3A%2F%2Fraw.githubusercontent.com%2Fgraniet%2FInspector%2Fmaster%2Finspector.py&redir_token=NRcZc4syheoWpt3ZL0vHVZUWrp98MTU0MTA4NTgxOUAxNTQwOTk5NDE5&event=video_description&v=9UkiE90hvVI
+
+12.
